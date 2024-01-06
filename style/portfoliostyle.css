@@ -6,9 +6,9 @@ body {
 .header {
 
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 
 }
 
@@ -79,9 +79,216 @@ nav>ul>li>a {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-contant {
+    max-width: 500px;
+
 }
 
 .profilePicture {
     width: 584px;
     height: 676px;
+
 }
+
+
+/* Main section css */
+
+/* about Css */
+
+.aboutss {
+
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 230px;
+    padding: 100px 200px 0px;
+
+}
+
+.aboutmeGroupinfo {
+    display: flex;
+    text-align: center;
+    gap: 30px;
+}
+
+.about-title-head {
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.aboutme-datails {
+    color: #474747;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.section-title {
+
+    text-align: center;
+
+
+}
+
+.whatIDo {
+    border-radius: 10px;
+    margin: 10px 340px;
+
+}
+
+.whatidodetails {
+
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.whatidoheader {
+
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.skils {
+
+    display: flex;
+    margin: 100px 230px;
+    gap: 30px;
+
+}
+
+.skilss {
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.img {
+
+
+    padding: 5px;
+
+
+}
+
+.skilsshead {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.skillsdetails {
+
+
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 10px 15px 10px;
+
+}
+
+.resumeheader {
+    text-align: center;
+}
+
+.Resumecontainer {
+    display: flex;
+    margin: 50px 230px;
+    padding: 20px 30px;
+    gap: 30px;
+}
+
+.resumecontanthed {
+
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.resumecontantheader {
+
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resumecontantDetails {
+
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+
+}
+
+.button {
+    text-align: center;
+}
+
+hr {
+    margin: 0px 20px;
+}
+
+.Footersection {
+
+    display: flex;
+    gap: 100px;
+    margin: 50px 0px 0px 0px;
+    padding: 130px 230px;
+    background: #FFF8F3;
+
+}
+
+.fottercontanthader {
+
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.foottercontaindatails {
+
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px
+}
+
+.inputName{
+    padding: 20px;
+    border-radius: 5px;
+    width: 85%;
+    background:  #FFF;
+    margin-bottom: 20px;
+    outline: none;
+
+}
+
+
+.textarea{
+    border-radius: 5px;
+    background:  #FFF;
+    outline: none;
+}
+
